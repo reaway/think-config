@@ -16,7 +16,7 @@ use Think\Component\Facade\Facade;
 
 /**
  * @see \Think\Component\Config\Config
- * @package thinkphp\facade
+ * @package Think\Component\Config\Facade
  * @mixin \Think\Component\Config\Config
  * @method static array load(string $file, string $name = '') 加载配置文件（多种格式）
  * @method static bool has(string $name) 检测配置是否存在
