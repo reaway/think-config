@@ -11,6 +11,7 @@ use Think\Component\Config\Facade\Config;
 
 require __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
+// load
 $file = __DIR__ . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'cache.php';
 Config::load($file, 'cache');
 
