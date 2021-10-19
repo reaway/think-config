@@ -32,6 +32,6 @@ class Config extends Facade
      */
     protected static function getFacadeClass()
     {
-        return '\Think\Component\Config\Config';
+        return 'Think\Component\Config\Config';
     }
 }
